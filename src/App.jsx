@@ -9,8 +9,11 @@ import Card from "./Components/Card";
 function App() {
   return (
     <div>
+      <div>
+        <h1>hello iam pratik</h1>
+      </div>
       <Nav />  {/* Navbar will appear on all pages */}
-      <Card></Card>
+      <Card>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<Login />} />
